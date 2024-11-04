@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gifs For Life</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js"></script>
+</head>
+<body>
+  <h1>Gifs For Life</h1>
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <section id="section_search">
+        <label>
+          <input type="text" name="" id="searchQuery">
+        </label>
+        <input type="submit" value="Search" onclick="displayData()">
+  
+        <label>
+          <input type="submit" value="Trending" onclick="displayTrending()">
+        </label>
+
+        <button type="button" onClick="window.location.reload()">
+          Clear
+        </button>
+      </section>
+    </nav>
+
+    <section id="section_image"></section>
+    <footer>
+      <p> &copy; 2024 Gifs For Life. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
