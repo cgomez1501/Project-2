@@ -10,16 +10,12 @@ async function displayData() {
           let newImage = document.createElement ("img")
           newImage.src = element.images.original.url
           newImage.className = "giphy_img"
-          console.log (newImage)
   
           let section_image = document.getElementById ("section_image")
           section_image.appendChild (newImage)
-          console.log (section_image)
-          console.log ("success")
         });
       } catch (error) {
       FileSystem.out.prinln("Error displaying")
-      console.log (error)
   }
   } 
   
@@ -34,15 +30,11 @@ async function displayData() {
             let newImage = document.createElement ("img")
             newImage.src = element.images.original.url
             newImage.className = "giphy_img"
-            console.log (newImage)
     
             let section_image = document.getElementById ("section_image")
             section_image.appendChild (newImage)
-            console.log (section_image)
-            console.log ("success")
           });
         } catch (error) {
         FileSystem.out.prinln("Error displaying")
-        console.log (error)
     }
   } 
